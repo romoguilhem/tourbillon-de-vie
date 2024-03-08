@@ -1,0 +1,67 @@
+#card-welcome {
+  overflow: hidden;
+  height: fit-content;
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#card-welcome img {
+  height: 100%;
+  width: 120px;
+}
+
+#card-welcome h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#card-welcome p, #card-gold p {
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-top: 8px;
+}
+
+#card-welcome .card-welcome-text  {
+  padding: 16px;
+  margin-left: 10px;
+  max-width: 500px;
+}
+
+#card-welcome .card-welcome-text img {
+  float: right;
+}
+
+#card-gold {
+  display: flex;
+}
+
+.logo-text {
+  max-width: 200px;
+  margin: auto 0;
+  text-align: center;
+}
+
+#card-gold .logo-text p {
+  line-height: 1;
+}
+
+#card-gold .logo-text img {
+  height: 75px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-gold {
+  background-color: #e2b36d;
+  padding: 4px;
+  width: 500px;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
