@@ -1,15 +1,25 @@
 @import "navbar.css";
 @import "card.css";
+@import "font/font.css";
 
 body {
   background-color: #eddcc9;
+  background-image: url("images/papier-peau.jpg");
+  background-size: cover;
+  color: #6f594d;
+  font-family: 'Minerva Modern Italic';
+  font-size: large;
 }
 
-h1 {
-  color:green;
+h2, nav a {
+  font-family: 'Providence Sans Regular', sans-serif;
+}
+
+h2 {
+  color:  #de6247;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #6f594d;
 }

@@ -22,7 +22,6 @@
 #card-welcome p, #card-gold p {
   font-size: 14px;
   line-height: 1.4;
-  opacity: .7;
   margin-top: 8px;
 }
 
@@ -44,6 +43,7 @@
   max-width: 200px;
   margin: auto 0;
   text-align: center;
+  color:  #9c9258;
 }
 
 #card-gold .logo-text p {
@@ -58,10 +58,15 @@
 }
 
 .text-gold {
-  background-color: #e2b36d;
+  background-image: url("images/texture_nuage_soleil.jpg");
+  background-size: cover;
   padding: 4px;
   width: 500px;
   border-radius: 10px;
   margin-right: 10px;
   text-align: center;
+}
+
+.text-gold strong {
+  font-family: "Providence Sans";
 }
