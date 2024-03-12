@@ -1,0 +1,51 @@
+#feedbacks {
+  padding: 20px;
+}
+
+.switch-button {
+  border-radius: 10px;
+}
+
+#feedbacks {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.slide p {
+  margin: 5px 0;
+}
+
+.show {
+  display: block;
+}
+
+.carrousel-buttons {
+  margin: 6px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#prevBtn, #nextBtn {
+  background-color: #333;
+  color: #ffffffdc;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#prevBtn {
+  left: 0;
+}
+
+#nextBtn {
+  right: 0;
+}

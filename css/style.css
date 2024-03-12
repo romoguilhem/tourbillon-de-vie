@@ -1,9 +1,10 @@
 @import "navbar.css";
 @import "card.css";
 @import "font/font.css";
+@import "feedbacks.css";
 
 body {
-  background-color: #eddcc9;
+  /* background-color: #eddcc9; */
   background-image: url("images/papier-peau.jpg");
   background-size: cover;
   color: #6f594d;
@@ -11,11 +12,8 @@ body {
   font-size: large;
 }
 
-h2, nav a {
-  font-family: 'Providence Sans Regular', sans-serif;
-}
-
 h2 {
+  font-family: 'Providence Sans Regular', sans-serif;
   color:  #de6247;
 }
 
