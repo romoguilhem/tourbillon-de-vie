@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<h1>COucou on est re là</h1>
-
 <body>
   <div id="nav-container">
     <nav>
@@ -16,11 +14,11 @@
       <div id="nav-links">
         <a href="home.html">Accueil</a>
         <div class="dropdown">
-          <a href="#" class="drop-button">Prestations</a>
+          <a href="prestations.html" class="drop-button">Prestations</a>
           <div class="dropdown-content">
-            <a href="prestations.html">Accompagnement périnatal</a>
-            <a href="prestations.html#section-2">Accompagnement parental</a>
-            <a href="prestations.html#section-3">Accompagnement du féminin</a>
+            <a href="prestations.html#accompagnement-perinatal">Accompagnement périnatal</a>
+            <a href="prestations.html#accompagnement-parental">Accompagnement parental</a>
+            <a href="prestations.html#accompagnement-du-feminin">Accompagnement du féminin</a>
           </div>
         </div>
         <a href="contact.html">Contact</a>
@@ -37,7 +35,7 @@
     </div>
   </div>
 
-  <div id="card-gold">
+  <div class="card-gold">
     <div class="text-gold">
       <p>Je me tiens à vos côtés dans le respect absolu de vos choix, dans l'accueil de vos émotions & dans la considération totale de vos besoins.<br><br>Je me situe en Sud-Gironde, à Pujols-sur-Ciron (à 15 minutes de Langon) dans le cabinet que j'ai crée avec tout mon cœur pour vous recevoir.<br><strong>J'ai si hâte de vous y accueillir !</strong></p>
     </div>
@@ -47,6 +45,29 @@
     </div>
   </div>
 
-  <div id="feedbacks"></div>
-  <!-- <script src="javascript/script.js"></script> -->
+  <div id="feedbacks">
+    <div class="slide">
+      <p class="text">Avis 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p class="author">- John Doe</p>
+    </div>
+    <div class="slide">
+      <p class="text">Avis 2 - Fusce commodo magna sit amet mi tincidunt, in bibendum tellus convallis.</p>
+      <p class="author">- Jane Smith</p>
+    </div>
+    <div class="slide">
+      <p class="text">Avis 3 - Integer sit amet justo ultrices, malesuada odio at, aliquam magna.</p>
+      <p class="author">- Alex Johnson</p>
+    </div>
+    <div class="slide">
+      <p class="text">Avis 4 - Sed gravida metus nec diam condimentum, id convallis orci pharetra.</p>
+      <p class="author">- Emily Davis</p>
+    </div>
+    <div class="carrousel-buttons">
+      <button id="prevBtn" class="switch-button">&lt;</button>
+      <button id="nextBtn" class="switch-button">&gt;</button>
+    </div>
+  </div>
+
+<script src="javascript/feedbacks.js"></script>
+<script src="javascript/smoothScroll.js"></script>
 </body>
