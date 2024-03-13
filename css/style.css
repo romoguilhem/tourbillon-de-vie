@@ -5,11 +5,10 @@
 
 body {
   /* background-color: #eddcc9; */
-  background-image: url("images/papier-peau.jpg");
+  background-image: url("images/papier-peau90.jpg");
   background-size: cover;
   color: #6f594d;
-  font-family: 'Minerva Modern Italic';
-  font-size: large;
+  font-family: 'Minerva Modern Regular';
 }
 
 h2 {
@@ -20,4 +19,17 @@ h2 {
 a {
   text-decoration: none;
   color: #6f594d;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+p {
+  font-size: 16px;
+}
+
+.warning-text {
+  font-size: 13px;
+  color: #de6247;
 }
