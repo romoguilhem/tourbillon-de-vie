@@ -2,6 +2,9 @@
 @import "card.css";
 @import "font/font.css";
 @import "feedbacks.css";
+@import "contact.css";
+@import "phototampon.css";
+@import "button.css";
 
 body {
   /* background-color: #eddcc9; */
@@ -21,9 +24,9 @@ a {
   color: #6f594d;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+} 
 
 p {
   font-size: 16px;

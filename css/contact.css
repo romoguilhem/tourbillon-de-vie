@@ -1,0 +1,26 @@
+.signature {
+  /* height: 100%; */
+  width: 120px;
+  align-self: flex-end;
+}
+
+#contact-text i {
+  color: #de6247;
+}
+
+#contact-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-mail-adress {
+  font-family: 'Providence Sans Regular', sans-serif;
+}
+
+.phone-mail-adress span {
+  font-family: 'Minerva Modern Regular';
+}
+
+#contact-container {
+  margin-bottom: 100px;
+}
