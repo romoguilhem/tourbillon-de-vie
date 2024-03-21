@@ -43,7 +43,7 @@
     font-family: 'Minerva Modern Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Minerva Modern Regular'), url('MinervaModern Regular.otf') format('otf');
+    src: local('Minerva Modern Regular'), url('MinervaModernRegular.otf') format('otf');
     }
 
     @font-face {

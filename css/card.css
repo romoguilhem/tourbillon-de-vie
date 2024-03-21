@@ -14,7 +14,7 @@
   margin: 0;
 }
 
-#card-welcome p, #card-gold p {
+#card-welcome p, .card-gold p {
   font-size: 14px;
   line-height: 1.4;
   margin-top: 8px;
@@ -28,8 +28,10 @@
   flex-direction: column;
 }
 
-.card-gold {
+.duo-card {
   display: flex;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .logo-text {
@@ -39,11 +41,11 @@
   color:  #9c9258;
 }
 
-.card-gold .logo-text p {
+.duo-card .logo-text p {
   line-height: 1;
 }
 
-.card-gold .logo-text img {
+.duo-card .logo-text img {
   height: 75px;
   width: auto;
   display: block;
@@ -54,12 +56,33 @@
   background-image: url("images/texture_nuage_soleil.jpg");
   background-size: cover;
   padding: 4px;
-  width: 500px;
+  max-width: 150px;
   border-radius: 10px;
   margin-right: 10px;
   text-align: center;
+  height: fit-content;
 }
 
 .text-gold strong {
-  font-family: "Providence Sans";
+  font-family: 'Providence Sans Regular', sans-serif;
+}
+
+.vertical-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.big-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.big-prestation {
+  text-align: center;
 }

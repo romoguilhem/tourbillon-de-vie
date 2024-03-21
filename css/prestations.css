@@ -17,7 +17,47 @@
   font-weight: 600;
 }
 
-.prestation-text {
+/* Section Bubble */
+.bubble {
+  background-color: #f6e8db;
+  border-radius: 20%;
+  text-align: center;
+  width: 200px;
+  padding: 6px;
+  margin: 20px;
+}
+
+.bubble-container {
+  display: flex;
+  justify-content: center;
+}
+
+.duo-bubble {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/* Section sur les bains */
+.bath {
+  margin-bottom: 60px;
+}
+
+.bath-title {
+  text-align: center;
+  font-family: 'Providence Sans Regular', sans-serif;
+  font-weight: bolder;
+}
+
+.bath-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.bath-accroche {
+  font-family: 'Providence Sans Regular', sans-serif;
+  color:  #de6247;
+  font-weight: 600;
 }
