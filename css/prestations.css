@@ -1,0 +1,23 @@
+.big-prestation {
+  display: flex;
+  flex-direction: column;
+}
+
+.gold-btn {
+  align-self: center;
+}
+
+.prestation {
+  text-align: center;
+}
+
+.prestation-title, .price {
+  color: #9c9258;
+  font-family: 'Providence Sans Regular', sans-serif;
+  font-weight: 600;
+}
+
+.prestation-text {
+  display: flex;
+  flex-direction: column;
+}
