@@ -3,7 +3,27 @@ nav {
   justify-content: space-around;
   font-weight: bold;
   font-size: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("images/papier-peau90.jpg");
+  background-size: cover;
+  /* opacity: 0.9; */
+  box-shadow: 0 4px 4px #6f594d; /* Ombre légère */
+  z-index: 1000; /* On s'assure que la navbar est affichée au-dessus du contenu */
+  transition: top 0.3s;
+}
+
+.navbar.hidden {
+  top: -100px; /* Masque la navbar en dehors de l'écran */
+}
+
 
 #nav-links {
   width: 250px;
