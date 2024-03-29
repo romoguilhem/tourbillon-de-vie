@@ -1,3 +1,7 @@
+.section {
+  margin-top: 100px;
+}
+
 .big-prestation {
   display: flex;
   flex-direction: column;
@@ -25,6 +29,7 @@
   width: 200px;
   padding: 6px;
   margin: 20px;
+  border: 1px solid #6f594d;
 }
 
 .bubble-container {
@@ -39,10 +44,15 @@
   justify-content: space-around;
 }
 
-
 /* Section sur les bains */
+.bath-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .bath {
   margin-bottom: 60px;
+  max-width: 400px;
 }
 
 .bath-title {
@@ -54,10 +64,23 @@
 .bath-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .bath-accroche {
   font-family: 'Providence Sans Regular', sans-serif;
   color:  #de6247;
   font-weight: 600;
+}
+
+/* Les média queries */
+
+@media only screen and (min-width: 600px) {
+  .duo-bubble {
+    flex-direction: row;
+  }
+
+  .bath {
+    max-width: 600px;
+  }
 }

@@ -11,15 +11,22 @@
 body {
   /* background-color: #eddcc9; */
   background-image: url("images/papier-peau90.jpg");
-  background-size: cover;
+  background-size: contain;
   color: #6f594d;
-  /* display: flex;
-  flex-direction: column; */
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  }
 }
 
 #main-container {
   /* align-self: center; */
-  max-width: 1000px;
+  max-width: 650px;
 }
 
 .main-content {
