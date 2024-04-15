@@ -3,7 +3,27 @@ nav {
   justify-content: space-around;
   font-weight: bold;
   font-size: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("images/papier-peau90.jpg");
+  background-size: cover;
+  /* opacity: 0.9; */
+  /* box-shadow: 0 4px 4px #6f594d; */
+  z-index: 1000; /* On s'assure que la navbar est affichée au-dessus du contenu */
+  transition: top 0.3s;
+}
+
+.navbar.hidden {
+  top: -100px; /* Masque la navbar en dehors de l'écran */
+}
+
 
 #nav-links {
   width: 250px;
@@ -50,13 +70,14 @@ nav img {
   display: none;
   position: absolute;
   background-image: url("images/papier-peau.jpg");
-  background-size: cover;
+  background-size: contain;
   min-width: 200px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  /* box-shadow: 5px 5px 10px rgba(0,0,0,0.5); */
   z-index: 1;
   transition: all 0.3s ease-in-out;
-  border-radius: 6px;
+  border-radius: 10px;
   padding: 10px;
+  margin-top: 2px;
 }
 
 .dropdown-content a {

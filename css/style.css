@@ -2,34 +2,54 @@
 @import "card.css";
 @import "font/font.css";
 @import "feedbacks.css";
+@import "contact.css";
+@import "phototampon.css";
+@import "button.css";
+@import "logo.css";
+@import "prestations.css";
 
 body {
   /* background-color: #eddcc9; */
   background-image: url("images/papier-peau90.jpg");
-  background-size: cover;
+  background-size: contain;
   color: #6f594d;
-  font-family: 'Minerva Modern Regular';
 }
 
-h2 {
+@media only screen and (min-width: 601px) {
+  body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  }
+}
+
+#main-container {
+  /* align-self: center; */
+  max-width: 650px;
+}
+
+.main-content {
+  margin-top: 100px;
+}
+
+h1, h2, h3 {
   font-family: 'Providence Sans Regular', sans-serif;
   color:  #de6247;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: #6f594d;
+  font-family: 'Providence Sans Regular', sans-serif;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+} 
 
 p {
   font-size: 16px;
-}
-
-.warning-text {
-  font-size: 13px;
-  color: #de6247;
+  font-family: 'Minerva Modern Regular';
 }

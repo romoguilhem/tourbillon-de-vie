@@ -1,0 +1,27 @@
+#about-me-button {
+  padding: 6px 8px;
+}
+
+.gold-btn {
+  background-color: #e5b569;
+  padding: 8px 8px;
+  border-radius: 50px;
+  font-family: 'Providence Sans Regular', sans-serif;
+  font-weight: bold;
+}
+
+.prestation {
+  display: flex;
+  flex-direction: column;
+}
+
+.kaki-btn {
+  background-color: #9c9258;
+  color:  #f6e8db;
+  padding: 8px 8px;
+  border-radius: 50px;
+  font-family: 'Providence Sans Regular', sans-serif;
+  font-weight: bold;
+  width: fit-content;
+  align-self: center;
+}

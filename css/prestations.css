@@ -1,0 +1,101 @@
+.section {
+  margin-top: 100px;
+}
+
+.warning-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid #de6247; */
+  border-radius: 10px;
+  background-color: #de6247;
+  color: #e8caa9;
+  padding: 10px;
+}
+
+.big-prestation {
+  display: flex;
+  flex-direction: column;
+}
+
+.gold-btn {
+  align-self: center;
+}
+
+.prestation {
+  text-align: center;
+}
+
+.prestation-title, .price {
+  color: #9c9258;
+  font-family: 'Providence Sans Regular', sans-serif;
+  font-weight: 600;
+}
+
+/* Section Bubble */
+.bubble {
+  background-color: #f6e8db;
+  border-radius: 20%;
+  text-align: center;
+  width: 200px;
+  padding: 6px;
+  margin: 20px;
+}
+
+.bubble-container {
+  display: flex;
+  justify-content: center;
+}
+
+.duo-bubble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Section sur les bains */
+.bath-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bath {
+  margin-bottom: 60px;
+  max-width: 400px;
+}
+
+.bath-title {
+  text-align: center;
+  font-family: 'Providence Sans Regular', sans-serif;
+  font-weight: bolder;
+}
+
+.bath-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bath-accroche {
+  font-family: 'Providence Sans Regular', sans-serif;
+  color:  #de6247;
+  font-weight: 600;
+}
+
+/* Les média queries */
+@media only screen and (max-width: 400px) {
+  .title-problem {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .duo-bubble {
+    flex-direction: row;
+  }
+
+  .bath {
+    max-width: 500px;
+  }
+}

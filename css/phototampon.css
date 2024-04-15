@@ -1,0 +1,31 @@
+/* on gère la superposition photo tampon */
+.photo-tampon {
+  position: relative;
+  height: 150px;
+  margin-bottom: 60px;
+}
+
+.photo-salome {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.tampon-doula {
+  width: 120px;
+  position: absolute;
+  top: 110px;
+  left: 60px;
+}
+
+
+/* On gère la photo tampon sur l'accueil car il y a moins de place */
+#card-welcome .photo-salome {
+  width: 120px;
+  margin-bottom: 40px;
+}
+
+#card-welcome .tampon-doula {
+  width: 96px;
+  top: 85px;
+  left: 45px;
+}
