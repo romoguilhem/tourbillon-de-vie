@@ -2,6 +2,17 @@
   margin-top: 100px;
 }
 
+.warning-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid #de6247; */
+  border-radius: 10px;
+  background-color: #de6247;
+  color: #e8caa9;
+  padding: 10px;
+}
+
 .big-prestation {
   display: flex;
   flex-direction: column;
@@ -29,7 +40,6 @@
   width: 200px;
   padding: 6px;
   margin: 20px;
-  border: 1px solid #6f594d;
 }
 
 .bubble-container {
@@ -74,6 +84,11 @@
 }
 
 /* Les média queries */
+@media only screen and (max-width: 400px) {
+  .title-problem {
+    max-width: 150px;
+  }
+}
 
 @media only screen and (min-width: 600px) {
   .duo-bubble {
@@ -81,6 +96,6 @@
   }
 
   .bath {
-    max-width: 600px;
+    max-width: 500px;
   }
 }
